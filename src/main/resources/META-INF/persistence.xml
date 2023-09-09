@@ -4,7 +4,8 @@
              xsi:schemaLocation="https://jakarta.ee/xml/ns/persistence https://jakarta.ee/xml/ns/persistence/persistence_3_0.xsd"
              version="3.0">
   <persistence-unit name="feria">
-    <class>com.uptc.fwr.entity.Person</class>
+    <class>com.uptc.fwr.entity.Author</class>
+    <class>com.uptc.fwr.entity.Message</class>
 
     <properties>
       <property name="javax.persistence.jdbc.url" value="jdbc:oracle:thin:@localhost:1521:xe"></property>

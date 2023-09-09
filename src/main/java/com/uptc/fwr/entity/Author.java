@@ -1,20 +1,30 @@
 package com.uptc.fwr.entity;
 
-import jakarta.persistence.Column;
-import jakarta.persistence.Id;
+import jakarta.persistence.*;
 
-public class Autor {
+import java.util.List;
 
+@Entity
+@Table(name="AUTHOR")
+public class Author {
+
+    @Id
+    @Column(name = "AUT_ID")
     private Long id;
-
+    @Column(name = "AUT_NAME")
     private String name;
-
+    @Column(name = "AUT_EMAIL")
     private String email;
 
-    public Autor() {
+
+    @OneToMany (mappedBy = "author")
+    private List<Message> messages;
+
+
+    public Author() {
     }
 
-    public Autor(Long id, String name, String email) {
+    public Author(Long id, String name, String email) {
         this.id = id;
         this.name = name;
         this.email = email;
@@ -44,6 +54,14 @@ public class Autor {
         this.email = email;
     }
 
+
+    public List<Message> getMessages() {
+        return messages;
+    }
+
+    public void setMessages(List<Message> messages) {
+        this.messages = messages;
+    }
     @Override
     public String toString() {
         return "Autor{" +
