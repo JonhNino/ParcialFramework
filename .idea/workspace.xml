@@ -4,14 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9fcd6e58-3fed-49b9-be2f-55e48beff023" name="Changes" comment="Creacion Metodos Ok hasta el 3">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/uptc/fwr/entity/Autor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/uptc/fwr/entity/Author.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/uptc/fwr/entity/Message.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/uptc/fwr/entity/Message.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" afterDir="false" />
-    </list>
+    <list default="true" id="9fcd6e58-3fed-49b9-be2f-55e48beff023" name="Changes" comment="Fin Parcial" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -87,7 +80,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1694274742327</updated>
-      <workItem from="1694274743417" duration="4158000" />
+      <workItem from="1694274743417" duration="4822000" />
     </task>
     <task id="LOCAL-00001" summary="Creacion Entidades">
       <option name="closed" value="true" />
@@ -97,7 +90,15 @@
       <option name="project" value="LOCAL" />
       <updated>1694275810928</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Fin Parcial">
+      <option name="closed" value="true" />
+      <created>1694281479065</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1694281479065</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -117,6 +118,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Creacion Entidades" />
     <MESSAGE value="Creacion Metodos Ok hasta el 3" />
-    <option name="LAST_COMMIT_MESSAGE" value="Creacion Metodos Ok hasta el 3" />
+    <MESSAGE value="Fin Parcial" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fin Parcial" />
   </component>
 </project>
